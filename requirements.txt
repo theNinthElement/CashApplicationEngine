@@ -1,0 +1,34 @@
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.25
+psycopg2-binary>=2.9.9
+alembic>=1.13.1
+asyncpg>=0.29.0
+
+# Validation
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+
+# Excel parsing
+pandas>=2.1.4
+openpyxl>=3.1.2
+
+# PDF parsing and OCR
+pdfplumber>=0.10.3
+pytesseract>=0.3.10
+Pillow>=10.2.0
+
+# Fuzzy matching
+rapidfuzz>=3.6.1
+
+# Testing
+pytest>=7.4.4
+pytest-asyncio>=0.23.3
+httpx>=0.26.0
+
+# Utilities
+python-dotenv>=1.0.0

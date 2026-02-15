@@ -1,0 +1,704 @@
+{
+  "emails": [
+    {
+      "id": "email_001",
+      "receivedAt": "2026-01-20T08:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10000",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10000.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_002",
+      "receivedAt": "2026-01-20T08:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10001",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10001.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_003",
+      "receivedAt": "2026-01-20T08:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10002",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10002.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_004",
+      "receivedAt": "2026-01-20T08:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10003",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10003.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_005",
+      "receivedAt": "2026-01-20T08:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10004",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10004.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_006",
+      "receivedAt": "2026-01-20T08:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10005",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10005.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_007",
+      "receivedAt": "2026-01-20T08:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10006",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10006.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_008",
+      "receivedAt": "2026-01-20T08:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10007",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10007.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_009",
+      "receivedAt": "2026-01-20T08:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10008",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10008.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_010",
+      "receivedAt": "2026-01-20T08:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10009",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10009.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_011",
+      "receivedAt": "2026-01-20T09:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10010",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10010.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_012",
+      "receivedAt": "2026-01-20T09:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10011",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10011.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_013",
+      "receivedAt": "2026-01-20T09:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10012",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10012.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_014",
+      "receivedAt": "2026-01-20T09:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10013",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10013.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_015",
+      "receivedAt": "2026-01-20T09:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10014",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10014.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_016",
+      "receivedAt": "2026-01-20T09:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10015",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10015.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_017",
+      "receivedAt": "2026-01-20T09:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10016",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10016.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_018",
+      "receivedAt": "2026-01-20T09:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10017",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10017.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_019",
+      "receivedAt": "2026-01-20T09:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10018",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10018.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_020",
+      "receivedAt": "2026-01-20T09:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10019",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10019.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_021",
+      "receivedAt": "2026-01-20T10:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10020",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10020.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_022",
+      "receivedAt": "2026-01-20T10:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10021",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10021.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_023",
+      "receivedAt": "2026-01-20T10:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10022",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10022.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_024",
+      "receivedAt": "2026-01-20T10:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10023",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10023.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_025",
+      "receivedAt": "2026-01-20T10:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10024",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10024.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_026",
+      "receivedAt": "2026-01-20T10:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10025",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10025.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_027",
+      "receivedAt": "2026-01-20T10:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10026",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10026.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_028",
+      "receivedAt": "2026-01-20T10:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10027",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10027.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_029",
+      "receivedAt": "2026-01-20T10:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10028",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10028.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_030",
+      "receivedAt": "2026-01-20T10:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10029",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10029.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_031",
+      "receivedAt": "2026-01-20T11:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10030",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10030.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_032",
+      "receivedAt": "2026-01-20T11:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10031",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10031.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_033",
+      "receivedAt": "2026-01-20T11:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10032",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10032.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_034",
+      "receivedAt": "2026-01-20T11:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10033",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10033.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_035",
+      "receivedAt": "2026-01-20T11:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10034",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10034.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_036",
+      "receivedAt": "2026-01-20T11:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10035",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10035.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_037",
+      "receivedAt": "2026-01-20T11:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10036",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10036.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_038",
+      "receivedAt": "2026-01-20T11:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10037",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10037.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_039",
+      "receivedAt": "2026-01-20T11:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10038",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10038.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_040",
+      "receivedAt": "2026-01-20T11:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10039",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10039.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_041",
+      "receivedAt": "2026-01-20T12:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10040",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10040.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_042",
+      "receivedAt": "2026-01-20T12:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10041",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10041.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_043",
+      "receivedAt": "2026-01-20T12:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10042",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10042.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_044",
+      "receivedAt": "2026-01-20T12:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10043",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10043.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_045",
+      "receivedAt": "2026-01-20T12:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10044",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10044.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_046",
+      "receivedAt": "2026-01-20T12:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10045",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10045.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_047",
+      "receivedAt": "2026-01-20T12:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10046",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10046.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_048",
+      "receivedAt": "2026-01-20T12:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10047",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10047.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_049",
+      "receivedAt": "2026-01-20T12:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10048",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10048.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_050",
+      "receivedAt": "2026-01-20T12:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10049",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10049.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_051",
+      "receivedAt": "2026-01-20T13:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10050",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10050.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_052",
+      "receivedAt": "2026-01-20T13:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10051",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10051.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_053",
+      "receivedAt": "2026-01-20T13:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10052",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10052.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_054",
+      "receivedAt": "2026-01-20T13:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10053",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10053.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_055",
+      "receivedAt": "2026-01-20T13:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10054",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10054.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_056",
+      "receivedAt": "2026-01-20T13:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10055",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10055.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_057",
+      "receivedAt": "2026-01-20T13:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10056",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10056.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_058",
+      "receivedAt": "2026-01-20T13:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10057",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10057.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_059",
+      "receivedAt": "2026-01-20T13:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10058",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10058.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_060",
+      "receivedAt": "2026-01-20T13:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10059",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10059.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_061",
+      "receivedAt": "2026-01-20T14:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10060",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10060.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_062",
+      "receivedAt": "2026-01-20T14:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10061",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10061.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_063",
+      "receivedAt": "2026-01-20T14:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10062",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10062.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_064",
+      "receivedAt": "2026-01-20T14:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10063",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10063.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_065",
+      "receivedAt": "2026-01-20T14:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10064",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10064.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_066",
+      "receivedAt": "2026-01-20T14:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10065",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10065.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_067",
+      "receivedAt": "2026-01-20T14:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10066",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10066.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_068",
+      "receivedAt": "2026-01-20T14:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10067",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10067.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_069",
+      "receivedAt": "2026-01-20T14:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10068",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10068.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_070",
+      "receivedAt": "2026-01-20T14:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10069",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10069.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_071",
+      "receivedAt": "2026-01-20T15:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10070",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10070.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_072",
+      "receivedAt": "2026-01-20T15:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10071",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10071.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_073",
+      "receivedAt": "2026-01-20T15:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10072",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10072.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_074",
+      "receivedAt": "2026-01-20T15:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10073",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10073.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_075",
+      "receivedAt": "2026-01-20T15:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10074",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10074.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_076",
+      "receivedAt": "2026-01-20T15:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10075",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10075.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_077",
+      "receivedAt": "2026-01-20T15:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10076",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10076.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_078",
+      "receivedAt": "2026-01-20T15:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10077",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10077.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_079",
+      "receivedAt": "2026-01-20T15:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10078",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10078.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_080",
+      "receivedAt": "2026-01-20T15:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10079",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10079.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_081",
+      "receivedAt": "2026-01-20T16:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10080",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10080.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_082",
+      "receivedAt": "2026-01-20T16:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10081",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10081.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_083",
+      "receivedAt": "2026-01-20T16:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10082",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10082.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_084",
+      "receivedAt": "2026-01-20T16:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10083",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10083.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_085",
+      "receivedAt": "2026-01-20T16:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10084",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10084.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_086",
+      "receivedAt": "2026-01-20T16:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10085",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10085.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_087",
+      "receivedAt": "2026-01-20T16:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10086",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10086.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_088",
+      "receivedAt": "2026-01-20T16:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10087",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10087.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_089",
+      "receivedAt": "2026-01-20T16:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10088",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10088.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_090",
+      "receivedAt": "2026-01-20T16:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10089",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10089.\n\nBest regards,\nBulkFoods Group Finance Team"
+    },
+    {
+      "id": "email_091",
+      "receivedAt": "2026-01-20T17:00:00Z",
+      "from": "ap@freshmart.com",
+      "subject": "Payment sent - ACH INV-10090",
+      "body": "Hello,\n\nWe have transferred the payment today. Please apply accordingly.\nInvoice reference: INV-10090.\n\nBest regards,\nFreshMart Retail Finance Team"
+    },
+    {
+      "id": "email_092",
+      "receivedAt": "2026-01-20T17:06:00Z",
+      "from": "ap@valuepluswholesale.eu",
+      "subject": "Short payment due to promo deduction INV-10091",
+      "body": "Hello,\n\nWe deducted the mentioned amount as per agreement. Supporting documents available upon request.\nInvoice reference: INV-10091.\n\nBest regards,\nValuePlus Wholesale Finance Team"
+    },
+    {
+      "id": "email_093",
+      "receivedAt": "2026-01-20T17:12:00Z",
+      "from": "finance@hausmarkt.de",
+      "subject": "Zahlungsavis INV-10092",
+      "body": "Hello,\n\nPayment has been initiated today. Please book according to remittance advice.\nInvoice reference: INV-10092.\n\nBest regards,\nHausMarkt GmbH Finance Team"
+    },
+    {
+      "id": "email_094",
+      "receivedAt": "2026-01-20T17:18:00Z",
+      "from": "ap@globalfoods.co.uk",
+      "subject": "Invoice copy request INV-10093",
+      "body": "Hello,\n\nCould you please resend the referenced invoice?\nInvoice reference: INV-10093.\n\nBest regards,\nGlobalFoods Ltd Finance Team"
+    },
+    {
+      "id": "email_095",
+      "receivedAt": "2026-01-20T17:24:00Z",
+      "from": "ap@northretail.com",
+      "subject": "Missing POD - payment on hold INV-10094",
+      "body": "Hello,\n\nPayment is currently on hold pending receipt of proof of delivery.\nInvoice reference: INV-10094.\n\nBest regards,\nNorth Retail Group Finance Team"
+    },
+    {
+      "id": "email_096",
+      "receivedAt": "2026-01-20T17:30:00Z",
+      "from": "ap@megawholesale.com",
+      "subject": "Pricing discrepancy on invoice INV-10095",
+      "body": "Hello,\n\nThe invoiced unit price does not match the agreed PO.\nInvoice reference: INV-10095.\n\nBest regards,\nMegaWholesale Finance Team"
+    },
+    {
+      "id": "email_097",
+      "receivedAt": "2026-01-20T17:36:00Z",
+      "from": "billing@supergrocer.fr",
+      "subject": "Payment confirmation request INV-10096",
+      "body": "Hello,\n\nPlease confirm receipt of our recent payment.\nInvoice reference: INV-10096.\n\nBest regards,\nSuperGrocer SA Finance Team"
+    },
+    {
+      "id": "email_098",
+      "receivedAt": "2026-01-20T17:42:00Z",
+      "from": "ap@urbanfoods.com",
+      "subject": "Statement of account request INV-10097",
+      "body": "Hello,\n\nKindly provide our latest statement of account.\nInvoice reference: INV-10097.\n\nBest regards,\nUrbanFoods Inc Finance Team"
+    },
+    {
+      "id": "email_099",
+      "receivedAt": "2026-01-20T17:48:00Z",
+      "from": "ap@greenmart.eu",
+      "subject": "Partial payment notification INV-10098",
+      "body": "Hello,\n\nA partial payment was made due to outstanding issues.\nInvoice reference: INV-10098.\n\nBest regards,\nGreenMart Europe Finance Team"
+    },
+    {
+      "id": "email_100",
+      "receivedAt": "2026-01-20T17:54:00Z",
+      "from": "ap@bulkfoods.com",
+      "subject": "Credit note required INV-10099",
+      "body": "Hello,\n\nPlease issue a credit note for the disputed amount.\nInvoice reference: INV-10099.\n\nBest regards,\nBulkFoods Group Finance Team"
+    }
+  ]
+}
