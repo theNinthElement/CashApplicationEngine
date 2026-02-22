@@ -8,6 +8,9 @@ from app.db.session import get_db, engine
 from app.db.base import Base
 from app.models import BankTransaction, RemittanceAdvice, RemittanceLineItem, Match, JournalEntry
 from app.api.v1.endpoints.upload import router as upload_router
+from app.api.v1.endpoints.processing import router as processing_router
+from app.api.v1.endpoints.matches import router as matches_router
+from app.api.v1.endpoints.journal import router as journal_router
 
 settings = get_settings()
 
@@ -31,6 +34,9 @@ app.add_middleware(
 
 # Include API routers
 app.include_router(upload_router, prefix="/api/v1")
+app.include_router(processing_router, prefix="/api/v1")
+app.include_router(matches_router, prefix="/api/v1")
+app.include_router(journal_router, prefix="/api/v1")
 
 
 @app.on_event("startup")

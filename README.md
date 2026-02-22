@@ -298,6 +298,9 @@ uvicorn app.main:app --reload
 ```
 
 ## Testing with Sample Data
+#start the server locally
+python3 -m uvicorn app.main:app --reload --port 8000
+
 
 ```bash
 # Upload bank statement
