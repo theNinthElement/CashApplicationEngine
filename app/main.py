@@ -4,7 +4,10 @@ from sqlalchemy import text
 from sqlalchemy.orm import Session
 
 from app.config import get_settings, Settings
-from app.db.session import get_db
+from app.db.session import get_db, engine
+from app.db.base import Base
+from app.models import BankTransaction, RemittanceAdvice, RemittanceLineItem, Match, JournalEntry
+from app.api.v1.endpoints.upload import router as upload_router
 
 settings = get_settings()
 
@@ -24,6 +27,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+# Include API routers
+app.include_router(upload_router, prefix="/api/v1")
+
+
+@app.on_event("startup")
+async def startup():
+    """Create database tables on startup."""
+    Base.metadata.create_all(bind=engine)
 
 
 @app.get("/")

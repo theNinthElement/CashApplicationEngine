@@ -3,7 +3,7 @@ from datetime import date, datetime
 from decimal import Decimal
 from sqlalchemy import String, Date, DateTime, Numeric, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy.dialects.postgresql import UUID
+from app.db.compat import UUID
 
 from app.db.base import Base
 
@@ -14,13 +14,13 @@ class JournalEntry(Base):
     __tablename__ = "journal_entries"
 
     id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
+        UUID(), primary_key=True, default=uuid.uuid4
     )
     match_id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), ForeignKey("matches.id"), nullable=True
+        UUID(), ForeignKey("matches.id"), nullable=True
     )
     remittance_line_id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), ForeignKey("remittance_line_items.id"), nullable=True
+        UUID(), ForeignKey("remittance_line_items.id"), nullable=True
     )
 
     # Journal entry fields (matching Sample Journal Entry.xlsx format)

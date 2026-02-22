@@ -4,7 +4,7 @@ from datetime import datetime
 from decimal import Decimal
 from sqlalchemy import String, DateTime, Numeric, Enum, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy.dialects.postgresql import UUID, JSONB
+from app.db.compat import UUID, JSONB
 
 from app.db.base import Base
 
@@ -21,13 +21,13 @@ class Match(Base):
     __tablename__ = "matches"
 
     id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
+        UUID(), primary_key=True, default=uuid.uuid4
     )
     transaction_id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), ForeignKey("bank_transactions.id"), nullable=False
+        UUID(), ForeignKey("bank_transactions.id"), nullable=False
     )
     remittance_id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), ForeignKey("remittance_advices.id"), nullable=False
+        UUID(), ForeignKey("remittance_advices.id"), nullable=False
     )
     confidence_score: Mapped[Decimal] = mapped_column(Numeric(5, 2), nullable=False)
     match_type: Mapped[MatchType] = mapped_column(Enum(MatchType), nullable=False)

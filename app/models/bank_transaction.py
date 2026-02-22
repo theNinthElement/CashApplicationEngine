@@ -4,7 +4,7 @@ from datetime import date, datetime
 from decimal import Decimal
 from sqlalchemy import String, Text, Date, DateTime, Numeric, Enum
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy.dialects.postgresql import UUID
+from app.db.compat import UUID
 
 from app.db.base import Base
 
@@ -21,7 +21,7 @@ class BankTransaction(Base):
     __tablename__ = "bank_transactions"
 
     id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
+        UUID(), primary_key=True, default=uuid.uuid4
     )
     buchungsdatum: Mapped[date] = mapped_column(Date, nullable=False)
     betrag: Mapped[Decimal] = mapped_column(Numeric(15, 2), nullable=False)

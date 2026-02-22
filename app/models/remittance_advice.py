@@ -4,7 +4,7 @@ from datetime import date, datetime
 from decimal import Decimal
 from sqlalchemy import String, Text, Date, DateTime, Numeric, Enum, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy.dialects.postgresql import UUID
+from app.db.compat import UUID
 
 from app.db.base import Base
 
@@ -21,7 +21,7 @@ class RemittanceAdvice(Base):
     __tablename__ = "remittance_advices"
 
     id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
+        UUID(), primary_key=True, default=uuid.uuid4
     )
     document_number: Mapped[str] = mapped_column(String(50), nullable=False, index=True)
     sender_name: Mapped[str] = mapped_column(String(255), nullable=True)
@@ -62,10 +62,10 @@ class RemittanceLineItem(Base):
     __tablename__ = "remittance_line_items"
 
     id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
+        UUID(), primary_key=True, default=uuid.uuid4
     )
     remittance_id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), ForeignKey("remittance_advices.id"), nullable=False
+        UUID(), ForeignKey("remittance_advices.id"), nullable=False
     )
     line_number: Mapped[int] = mapped_column(nullable=False)
     ihre_belegnr: Mapped[str] = mapped_column(String(50), nullable=True)
