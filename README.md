@@ -219,58 +219,6 @@ Company Code | Posting Date | Document Date | Document Type | Line Number | GL A
 | GET    | `/api/v1/journal-entries`      | List entries          |
 | POST   | `/api/v1/journal-entries/export`| Export to Excel      |
 
-## Implementation Phases
-
-### Phase 1: Foundation
-- Initialize project structure with FastAPI
-- Set up PostgreSQL + SQLAlchemy + Alembic
-- Create database models and run migrations
-- Implement basic health endpoint
-
-### Phase 2: Parsers
-- **Bank Statement Parser** (`parsers/bank_statement.py`)
-  - Parse German column headers (Buchungsdatum, Betrag, etc.)
-  - Handle German number format (comma decimal)
-  - Extract reference from Verwendungszweck
-
-- **Remittance PDF Parser** (`parsers/remittance_pdf.py`)
-  - OCR with pytesseract/pdfplumber
-  - Extract header (document_number, sender, totals)
-  - Parse line item table (invoices, discounts)
-
-- **Email Parser** (`parsers/email_parser.py`)
-  - Parse JSON format
-  - Classify email types
-  - Extract invoice references
-
-### Phase 3: Matching Engine
-- Implement matching rules:
-  - `rules/reference_match.py` - exact reference matching
-  - `rules/amount_match.py` - amount with tolerance
-  - `rules/company_match.py` - fuzzy name matching
-  - `rules/date_match.py` - date proximity
-
-- Create `matching/engine.py` orchestrator
-  - Find candidates
-  - Score and rank
-  - Apply thresholds
-
-### Phase 4: Journal Generation
-- Implement `journal/generator.py`
-- For matched transactions: one entry per remittance line item
-- For unmatched transactions: single entry from bank statement
-- Apply debit/credit logic based on amount sign
-
-### Phase 5: API & Integration
-- Complete REST endpoints
-- Implement processing pipeline service
-- Add export functionality (Excel/CSV)
-
-### Phase 6: Testing
-- Unit tests for parsers and matching rules
-- Integration tests with sample data
-- API endpoint tests
-
 ## Sample Files
 
 | File | Description |
@@ -319,4 +267,12 @@ curl -X POST http://localhost:8000/api/v1/processing/start \
 # Check results
 curl http://localhost:8000/api/v1/matches
 curl http://localhost:8000/api/v1/journal-entries
+
+
 ```
+Agent	| What It Does
+Ingestion Agent |	Monitors an inbox/folder, auto-uploads bank statements and PDFs
+Matching Review Agent	| Reviews manual_review matches, decides to approve or escalate
+Exception Handling Agent | Investigates unmatched transactions, searches emails for context
+Reconciliation Agent |	Validates journal entries balance, flags discrepancies
+Conversational Agent |	Lets finance users ask "why didn't invoice X match?" in natural language
